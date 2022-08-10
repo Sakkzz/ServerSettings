@@ -1,0 +1,11 @@
+1 Element = 1 soap
+1 Soap = 100 shards (in Replicator)
+100 shards = 1 element (in Replicator)
+
+The only downside if you want shards you need to do the conversation otherwise it works wonders.
+
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumableSoap_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Element_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=True)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_ElementShard_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumableSoap_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=True)))
+
+Additional note
+To make Soap you need to put the element in either a Cooking Pot or Industrial Cooker. Recommend to use Industrial cooker to make the process quicker.

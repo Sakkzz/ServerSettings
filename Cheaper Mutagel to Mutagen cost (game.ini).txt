@@ -1,0 +1,11 @@
+600 Mutagel = 6 Mutagen 
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumable_Mutagen_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumable_Mutagel_C",BaseResourceRequirement=150,bCraftingRequireExactResourceType=False)))
+
+400 Mutagel = 6 Mutagen
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumable_Mutagen_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumable_Mutagel_C",BaseResourceRequirement=100,bCraftingRequireExactResourceType=False)))
+
+200 Mutagel = 6 Mutagen
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumable_Mutagen_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumable_Mutagel_C",BaseResourceRequirement=50,bCraftingRequireExactResourceType=False)))
+
+100 Mutagel = 6 Mutagen
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumable_Mutagen_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumable_Mutagel_C",BaseResourceRequirement=25,bCraftingRequireExactResourceType=False)))

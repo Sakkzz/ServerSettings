@@ -1,0 +1,17 @@
+Gameusersettings.ini
+ClampItemStats=true
+
+Game.ini
+ItemStatClamps[1]=19800
+ItemStatClamps[2]=19800
+ItemStatClamps[3]=19800
+ItemStatClamps[5]=19800
+ItemStatClamps[7]=19800
+
+1: Armor
+2: Max Durability
+3: Weapon Damage Percent
+5: Hypothermal Insulation
+7: Hyperthermal Insulation
+
+This will Clamp all of these to the stats on offical, thereby preventing the loot from being overpowered

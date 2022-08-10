@@ -1,0 +1,12 @@
+Compass = 1 Element
+Unstable Element = 1 Compass
+
+This method allows you to keep the element process in the inventory so you do not need a replicator. The downsides to this method is waiting for Unstable Element to spoil into normal element, it will also mean you can not use element Dust to craft unstable element anymore.
+
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_ElementRefined_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItem_WeaponCompass_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=False)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponCompass_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Element_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=False)))
+
+To make this process easier below is the codes to make compasses and Element to 10k
+ 
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItem_WeaponCompass_C",Quantity=(MaxItemQuantity=10000, bIgnoreMultiplier=true))
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_Element_C",Quantity=(MaxItemQuantity=10000, bIgnoreMultiplier=true))

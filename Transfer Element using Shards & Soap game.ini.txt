@@ -1,0 +1,11 @@
+100 shards = 1 soap 
+1 soap = 1 element 
+1 Element = 100 Shards
+
+Allows players to convert shards into soap which can be transferred between servers then made back into element in the replicator.
+
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumableSoap_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_ElementShard_C",BaseResourceRequirement=100,bCraftingRequireExactResourceType=true)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_Element_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemConsumableSoap_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=true)))
+
+Additional note
+To make Soap you need to put the element in either a Cooking Pot or Industrial Cooker. Recommend to use Industrial cooker to make the process quicker.

@@ -1,0 +1,9 @@
+All you need to do is edit the text in this example. 
+
+For Example Instead of Welcome to free message of the day. Go Welcome to Hydra Cluster 
+
+This code will go into your gameusersetting.ini
+
+[MessageOfTheDay]
+Duration=30
+Message=<RichColor Color="1,0,0,1">Welcome to free message of the day</>\n\n<RichColor Color="0,1,0,1">Rules</>\n- No Taming, taming bronto is a instant ban, No turrets/building on Obs\n\n<RichColor Color="1,0.50,1,1">Settings</>\n- 5x taming, 2x harvest, 1 imprint only, Auto Unlock Engrams\n\n<RichColor Color="1,1,0,1">Join us at Discord</> 

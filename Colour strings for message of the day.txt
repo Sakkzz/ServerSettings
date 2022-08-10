@@ -1,0 +1,68 @@
+Red:
+<RichColor Color="1, 0, 0, 1">Text</>
+
+Orange:
+<RichColor Color="1, 0.65, 0, 1">Text</>
+
+Green:
+<RichColor Color="0, 1, 0, 1">Text</>
+
+Pink:
+<RichColor Color="1, 0, 1, 1">Text</>
+
+Blue:
+<RichColor Color="0, 0, 1, 1">Text</>
+
+Purple:
+<RichColor Color="0.65, 0, 1 ,1">Text</>
+
+Magenta: 
+<RichColor Color="1, 0, 0.65, 1">Text</>
+
+Salmon:
+<RichColor Color="1, 0.65, 1, 1">Text</>
+
+Dull Yellow: 
+<RichColor Color="1, 1, 0.65, 1">Text</>
+
+Yellow: 
+<RichColor Color="1, 1, 0, 1">Text</>
+
+Cyan: 
+<RichColor Color="0, 1, 1 ,1">Text</>
+
+Cobalt:
+<RichColor Color="0, 0.65, 1, 1">Text</>
+
+White:
+<RichColor Color="1, 1, 1, 1">Text</>
+
+Black:
+<RichColor Color="0, 0, 0, 0">Text</>
+
+Brown: 
+<RichColor Color="0.5, 0.3, 0.2, 1">Text</>
+
+Gray: 
+<RichColor Color="0.5, 0.5, 0.5, 1">Text</>
+
+Teal: 
+<RichColor Color="0, 0.5, 0.5, 1">Text</>
+
+Light Green:
+<RichColor Color="0.65, 1, 0, 1">Text</>
+
+Mint Green:
+<RichColor Color="1,1,0.65,0">Text</>
+
+Gold: 
+<RichColor Color="1,1,0,0.65">Text</>
+
+Matter Purple:
+<RichColor Color="0.5,0.3,0.65,1">Text</>
+
+Fuschia
+<RichColor Color="1, 0, 1, 1">Text</>
+
+Gold
+<RichColor Color="1,1,0,0.65">Text</>

@@ -1,0 +1,12 @@
+1 element = 1 compass 
+1 compass = 100 shards
+100 shards = 1 element
+
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponCompass_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItemResource_Element_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_ElementShard_C",BaseCraftingResourceRequirements=((ResourceItemTypeString="PrimalItem_WeaponCompass_C",BaseResourceRequirement=1,bCraftingRequireExactResourceType=false)))
+
+To make this process easier below is the codes to make compasses, Element and Element shards stack to 10k
+
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItem_WeaponCompass_C",Quantity=(MaxItemQuantity=10000, bIgnoreMultiplier=true))
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_Element_C",Quantity=(MaxItemQuantity=10000, bIgnoreMultiplier=true))
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_ElementShard_C",Quantity=(MaxItemQuantity=1000,bIgnoreMultiplier=true))
